@@ -3,15 +3,16 @@ suppliers:
     base_url: "https://www.castorama.fr"
     categories:
       tiles:
-        product_selector: ".product-list__item"
-        name_selector: ".product-list__item__infos__title"
-        price_selector: ".product-price__amount"
-        url_selector: "a.product-list__item__infos__title-link"
-        brand_selector: ".product-list__item__infos__brand"
-        unit_selector: ".product-list__item__infos__unit"
-        image_selector: "img.product-list__item__image"
+        # Updated selectors for new product list structure
+        product_selector: 'ul[data-testid="product-list"] > li > div[data-testid="product"]'
+        name_selector: '[data-testid="product-name"]'
+        price_selector: '[data-testid="product-price"]'
+        url_selector: 'a[data-testid="product-link"]'
+        image_selector: 'img[data-testid="product-image"]'
+        brand_selector: '[data-testid="seller-info"]'  # Seller/brand info if available
+        unit_selector: ''  # No direct selector; leave blank or use regex if needed
     pagination:
-      next_button_selector: ".pagination__next"
+      next_button_selector: 'a[aria-label="Page suivante"]'
       infinite_scroll: false
   - name: ManoMano
     base_url: "https://www.manomano.fr"
@@ -23,6 +24,7 @@ suppliers:
         url_selector: '[data-testid="productCardListing"]'
         image_selector: '[data-testid="image"]'
         products_container: '[data-testid="products-layout-category"]'
+        brand_selector: '[data-testid="brand-image"]'
     pagination:
       next_button_selector: 'button[aria-label="Next"]'
       infinite_scroll: false 
