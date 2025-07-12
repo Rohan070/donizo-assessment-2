@@ -1,0 +1,28 @@
+suppliers:
+  - name: Castorama
+    base_url: "https://www.castorama.fr"
+    categories:
+      tiles:
+        product_selector: ".product-list__item"
+        name_selector: ".product-list__item__infos__title"
+        price_selector: ".product-price__amount"
+        url_selector: "a.product-list__item__infos__title-link"
+        brand_selector: ".product-list__item__infos__brand"
+        unit_selector: ".product-list__item__infos__unit"
+        image_selector: "img.product-list__item__image"
+    pagination:
+      next_button_selector: ".pagination__next"
+      infinite_scroll: false
+  - name: ManoMano
+    base_url: "https://www.manomano.fr"
+    categories:
+      tiles:
+        product_selector: '[data-testid="productCardListing"]'
+        name_selector: '[data-testid="product-card-listings-title"]'
+        price_selector: '[data-testid="price-main"]'
+        url_selector: '[data-testid="productCardListing"]'
+        image_selector: '[data-testid="image"]'
+        products_container: '[data-testid="products-layout-category"]'
+    pagination:
+      next_button_selector: 'button[aria-label="Next"]'
+      infinite_scroll: false 
