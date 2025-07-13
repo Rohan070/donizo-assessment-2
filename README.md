@@ -3,6 +3,16 @@
 ![Functional Structure](donizo-material-scraper/FunctionalStructure.png)
 *Functional structure of the Donizo Material Scraper pipeline.*
 
+---
+
+## Walkthrough Video
+
+▶️ **Watch a full walkthrough of the Donizo Materials Explorer:**
+
+[Loom Video Walkthrough](https://www.loom.com/share/012a2637c560451eb87189436a3cd730?sid=a5924041-9e93-4f3c-8371-ec037eff814e)
+
+---
+
 ## Overview
 
 This project is a modular, production-ready Python web scraper for extracting real renovation material pricing data from major French suppliers (Castorama, ManoMano). It is designed for extensibility, clean data structuring, and easy integration with Donizo’s pricing engine or future APIs.
