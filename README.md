@@ -1,6 +1,6 @@
 # Donizo Material Scraper
 
-![Functional Structure](FunctionalStructure.png)
+![Functional Structure](donizo-material-scraper/FunctionalStructure.png)
 *Functional structure of the Donizo Material Scraper pipeline.*
 
 ## Overview
@@ -202,7 +202,7 @@ The project includes a modern Streamlit app for exploring and comparing material
 - Dynamic keyword filter, debug toggle, and Compare button
 - Responsive, visually appealing layout
 
-![Streamlit App Screenshot](StreamlitApp.png)
+![Streamlit App Screenshot](donizo-material-scraper/StreamlitApp.png)
 *Screenshot: Donizo Materials Explorer Streamlit UI (Browse tab with product cards)*
 
 ---
