@@ -9,7 +9,7 @@
 
 ▶️ **Watch a full walkthrough of the Donizo Materials Explorer:**
 
-[Loom Video Walkthrough](https://www.loom.com/share/012a2637c560451eb87189436a3cd730?sid=a5924041-9e93-4f3c-8371-ec037eff814e)
+[![Watch the walkthrough](donizo-material-scraper/loom.png)](https://www.loom.com/share/012a2637c560451eb87189436a3cd730?sid=a5924041-9e93-4f3c-8371-ec037eff814e)
 
 ---
 
