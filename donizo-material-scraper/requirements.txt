@@ -6,3 +6,6 @@ pytest
 fastapi
 uvicorn
 playwright 
+python-dotenv
+pytest
+streamlit
